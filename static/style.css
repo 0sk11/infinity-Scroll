@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+  margin : 0;
+  border:0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: #eee;
+  padding: 3rem 10rem;
+}
+
+.container{
+  min-width: 20rem;
+  width: 70vw;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading{
+  position : sticky;
+  top :0;
+  min-width: inherit;
+  text-align: center;
+  font-size: 2.5rem;
+  padding : 3rem 5rem;
+  background-color: grey;
+}
+
+.container .posts{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.container .posts:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.posts {
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  width: 50%;
+  min-width: inherit;
+}
+.post-img,.post-id,.title,.price{
+  margin: 2px auto;
+}
+.posts img{
+  width: 10rem;
+  text-align: center;
+}
+.posts .title{
+  font-weight: 200;
+  font-size: 2rem;
+}
+.btn{
+  text-decoration: none;
+  text-align: center;
+  color:black;
+  border: 3px solid black;
+}
+.btn:hover{
+  background-color: yellow;
+}
+
+a{
+  text-decoration: none;
+  font-size: 2rem;
+}
